@@ -1,0 +1,59 @@
+.footer {
+    background-color: gray;
+    height: 305px;
+    width: 100%;
+    margin-top: 110px;
+    padding-bottom: 15px;
+}
+
+.footer__event {
+    margin-left: 60px;
+    padding-top: 25px;
+}
+
+.footer__row {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+.event--title {
+    color: white;
+    font-family: CatamaranBold;
+    font-size: 23px;
+}
+
+.event--update {
+    font-family: LatoLight;
+    color: white;
+    font-size: 18px;
+}
+
+.footer__location {
+    display: flex;
+}
+
+.footer__address {
+    margin-right: 60px;
+    padding-top: 25px;
+}
+
+.address--university {
+    color: white;
+    font-family: CatamaranBold;
+    font-size: 23px;
+}
+
+.address--description {
+    color: white;
+    font-family: LatoLight;
+    font-size: 18px;
+}
+
+.footer__conclusion {
+    color: white;
+    background-color: gray;
+    font-family: LatoLight;
+    margin-left: 510px;
+    font-size: 13px;
+}

@@ -1,0 +1,358 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+html, body {
+ height: 100%
+}
+h1, h2, h3, h4, h5, h6, p {
+ margin-bottom: 16px
+}
+
+@font-face {
+    font-family: Geometric;
+    src: url(../fonts/DMSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: CatamaranNormal;
+    src: url(../fonts/Catamaran-Light.ttf);
+}
+
+@font-face {
+    font-family: CatamaranBold;
+    src: url(../fonts/Catamaran-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: LatoLight;
+    src: url(../fonts/Lato-Light.ttf);
+}
+
+.title__menu {
+    font-family: CatamaranBold;
+    color: #1F2022;
+    margin-left: 120px;
+    font-size: 48px;
+    margin-top: 65px;
+}
+
+.content {
+    display: flex;
+    flex-flow: row;
+    margin-top: 30px;
+    margin-left: 45px;
+}
+
+.title__restaurant {
+    color: gray;
+    font-family: CatamaranBold;
+    font-size: 37px;
+    margin-left: 130px;
+    padding-top: 55px;
+}
+
+.kitchen__title {
+    font-family: CatamaranBold;
+    color: gray;
+    padding-left: 45px;
+    font-size: 35px;
+}
+
+.food__title {
+    font-family: CatamaranBold;
+    padding-left: 45px;
+}
+
+.food__description {
+    font-family: LatoLight;
+    padding-left: 45px;
+}
+
+.content__title p {
+    font-family: CatamaranBold;
+    font-size: 20px;
+    color: crimson;
+    margin-left: 23px;
+}
+
+.hours__title {
+    font-family: CatamaranBold;
+    color: gray;
+    margin-left: 89px;
+}
+
+.calendar__title {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 34px;
+}
+
+.calendar__title p {
+    font-family: CatamaranBold;
+    font-size: 35px;
+    color: gray;
+    margin-left: 30px;
+    padding-top: 20px;
+}
+
+.title__operation {
+    font-family: CatamaranBold;
+    color: #2B2D2F;
+    margin-left: 150px;
+    font-size: 48px;
+    margin-top: 65px;
+}
+
+.content__hours {
+    border-bottom: 1px solid black;
+}
+
+.schedules__title {
+    font-family: CatamaranBold;
+    font-size: 35px;
+    margin-left: 45px;
+}
+
+.restaurant__hours {
+    font-family: CatamaranNormal;
+    color: green;
+    margin-left: 89px;
+    margin-bottom: 33px;
+}
+
+.restaurant__location {
+    font-family: CatamaranBold;
+    color: gray;
+    margin-left: 89px;
+}
+
+.restaurant__station {
+    font-family: CatamaranNormal;
+    color: gray;
+    margin-left: 89px;
+    margin-bottom: 33px;
+}
+
+.restaurant__food {
+    font-family: CatamaranNormal;
+    color: gray;
+    margin-left: 89px;
+    margin-bottom: 33px;
+}
+
+.facebook__title {
+    display: flex;
+    flex-flow: row;
+    margin-left: 34px;
+    padding-top: 28px;
+}
+
+.facebook__title p {
+    font-family: CatamaranBold;
+    font-size: 20px;
+    color: crimson;
+    margin-left: 23px;
+}
+
+.twitter__title {
+    display: flex;
+    flex-flow: row;
+    margin-left: 34px;
+    padding-top: 28px;
+}
+
+.twitter__title p {
+    font-family: CatamaranBold;
+    font-size: 20px;
+    color: crimson;
+    margin-left: 23px;
+}
+
+.content__link {
+    display: flex;
+    flex-flow: row;
+    margin-left: 20px;
+    padding-top: 28px;
+}
+
+.content__link p {
+    font-family: LatoLight;
+    font-size: 18px;
+    color: #3366CC;
+    margin-left: 23px;
+}
+
+.staff__list {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    padding-right: 300px;
+    padding-left: 300px;
+    padding-top: 35px;
+}
+
+.stacy__name {
+    font-family: CatamaranBold;
+    color: #2B2D2F;
+    font-size: 12px;
+}
+
+.stacy__job {
+    font-family: LatoLight;
+    color: gray;
+    font-size: 17px;
+}
+
+.stacy__contact {
+    font-family: LatoLight;
+    color: gray;
+    font-size: 17px;
+}
+
+.kellie__name {
+    font-family: CatamaranBold;
+    color: #2B2D2F;
+    font-size: 12px;
+}
+
+.kellie__job {
+    font-family: LatoLight;
+    color: gray;
+    font-size: 17px;
+}
+
+.kellie__contact {
+    font-family: LatoLight;
+    color: gray;
+    font-size: 17px;
+}
+
+.john__name {
+    font-family: CatamaranBold;
+    color: #2B2D2F;
+    font-size: 12px;
+}
+
+.john__job {
+    font-family: LatoLight;
+    color: gray;
+    font-size: 17px;
+}
+
+.john__contact {
+    font-family: LatoLight;
+    color: gray;
+    font-size: 17px;
+}
+
+.aaron__name {
+    font-family: CatamaranBold;
+    color: #2B2D2F;
+    font-size: 12px;
+}
+
+.aaron__job {
+    font-family: LatoLight;
+    color: gray;
+    font-size: 17px;
+}
+
+.aaron__contact {
+    font-family: LatoLight;
+    color: gray;
+    font-size: 17px;
+}
+
+.mike__name {
+    font-family: CatamaranBold;
+    color: #2B2D2F;
+    font-size: 12px;
+}
+
+.mike__job {
+    font-family: LatoLight;
+    color: gray;
+    font-size: 17px;
+}
+
+.mike__contact {
+    font-family: LatoLight;
+    color: gray;
+    font-size: 17px;
+}
+
+.lora__name {
+    font-family: CatamaranBold;
+    color: #2B2D2F;
+    font-size: 12px;
+}
+
+.lora__job {
+    font-family: LatoLight;
+    color: gray;
+    font-size: 17px;
+}
+
+.lora__contact {
+    font-family: LatoLight;
+    color: gray;
+    font-size: 17px;
+}
+
+.molli__name {
+    font-family: CatamaranBold;
+    color: #2B2D2F;
+    font-size: 12px;
+}
+
+.molli__job {
+    font-family: LatoLight;
+    color: gray;
+    font-size: 17px;
+}
+
+.molli__contact {
+    font-family: LatoLight;
+    color: gray;
+    font-size: 17px;
+}
+
+.randy__name {
+    font-family: CatamaranBold;
+    color: #2B2D2F;
+    font-size: 12px;
+}
+
+.randy__job {
+    font-family: LatoLight;
+    color: gray;
+    font-size: 17px;
+}
+
+.randy__contact {
+    font-family: LatoLight;
+    color: gray;
+    font-size: 17px;
+}
+
+.philip__name {
+    font-family: CatamaranBold;
+    color: #2B2D2F;
+    font-size: 12px;
+}
+
+.philip__job {
+    font-family: LatoLight;
+    color: gray;
+    font-size: 17px;
+}
+
+.philip__contact {
+    font-family: LatoLight;
+    color: gray;
+    font-size: 17px;
+}

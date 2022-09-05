@@ -1,0 +1,61 @@
+.image--active {
+    background-color: white;
+    padding-left: 20px;
+}
+
+.header__options {
+    display: flex;
+    background-color: #ECECEC;
+}
+
+.options--image {
+    height: 26px;
+    padding-right: 25px;
+}
+
+.header__logo {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin-top: 38px;
+}
+
+.header--chartwells {
+    height: 60px;
+    padding-left: 54px;
+}
+
+.header__button {
+    font-family: Geometric;
+    color: #6a6a6a;
+    text-decoration: none;
+}
+
+.header__social {
+    display: flex;
+    flex-flow: row nowrap;
+    float: right;
+    margin-top: 23px;
+}
+
+.social--image {
+    height: 30px;
+    margin-left: 19px;
+}
+
+.header__register {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-end;
+    margin-right: 45px;
+}
+
+.header__signing {
+    float: right;
+}
+
+.header--signup {
+    margin-left: 25px;
+    background-color: #ECECEC;
+    color: black;
+}
